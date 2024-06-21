@@ -1,8 +1,16 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: ["./src/ind/*.{index.html}"],
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          'custom-blue'= '#1DA1F2',
+      }
+      font-family: {
+        sans: [Helvetica],
+      }
+      },
     },
+
     plugins: [],
   }
   
