@@ -1,11 +1,11 @@
 module.exports = {
-    content: ["./src/ind/*.{index.html}"],
+    content: ["index.html"],
     theme: {
       extend: {
         colors: {
           'custom-blue'= '#1DA1F2',
       }
-      font-family: {
+        font-family: {
         sans: [Helvetica],
       }
       },
